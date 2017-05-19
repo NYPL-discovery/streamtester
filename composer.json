@@ -1,0 +1,19 @@
+{
+  "name": "nypl-stream-test-service",
+  "description": "NYPL Stream Test Service",
+  "require": {
+    "nypl/microservice-starter": "~0.1"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "NYPL\\Services\\": [ "src/" ]
+    }
+  },
+  "scripts": {
+    "post-update-cmd": [
+      "php -r \"copy('vendor/nypl/microservice-starter/scripts/index.js', 'index.js');\""
+    ]
+  }
+}

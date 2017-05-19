@@ -1,0 +1,18 @@
+[
+  {
+    "kinesis": {
+      "kinesisSchemaVersion": "1.0",
+      "partitionKey": "sensor-98840",
+      "sequenceNumber": "49572069884819445188792438759501921152986877438690590722",
+      "data": "EDE3NzQ2MzA3ABZzaWVycmEtbnlwbAAGYmli",
+      "approximateArrivalTimestamp": 1493495024.054
+    },
+    "eventSource": "aws:kinesis",
+    "eventVersion": "1.0",
+    "eventID": "shardId-000000000000:49572069884819445188792438759501921152986877438690590722",
+    "eventName": "aws:kinesis:record",
+    "invokeIdentityArn": "arn:aws:iam::224280085904:role/lambda_basic_execution",
+    "awsRegion": "us-east-1",
+    "eventSourceARN": "arn:aws:kinesis:us-east-1:224280085904:stream/IndexDocumentProcessed"
+  }
+]

@@ -1,0 +1,18 @@
+TIME_ZONE = "America/New_York"
+
+DB_CONNECT_STRING = "pgsql:host=nypl-items.cicyc5fazypj.us-east-1.rds.amazonaws.com;dbname=items"
+
+SLACK_CHANNEL = "service-logging"
+SLACK_USERNAME = "streamTestService"
+
+AWS_DEFAULT_REGION = "us-east-1"
+
+CACHE_HOST = "service-job.rtovuw.0001.use1.cache.amazonaws.com"
+CACHE_PORT = "6379"
+CACHE_DEFAULT_EXPIRATION = 604800
+
+STREAM_TEST_LISTENER_FUNCTION = "streamTestListener"
+STREAM_TEST_BATCH_SIZE = 100
+STREAM_TEST_STARTING_POSITION = "LATEST"
+
+SCHEMA_BASE_URL = "https://api.nypltech.org/api/v0.1/current-schemas"
